@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ds_dev:
+    tty: true
+    container_name: ds_dev
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - ~/script/python_lesson/udemy-python:/work
+    ports:
+      - "8888:8888"
