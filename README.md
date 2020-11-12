@@ -1,7 +1,8 @@
 # udemy-python
 this is a repo for udemy-python
 
-# Installation
+## Installation
+docker
 
-# Usage
+## Usage
 docker-compose up --build -d
