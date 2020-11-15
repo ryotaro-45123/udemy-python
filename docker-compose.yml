@@ -1,8 +1,8 @@
 version: '3'
 services:
-  ds_dev:
+  udemy_dev:
     tty: true
-    container_name: ds_dev
+    container_name: udemy_dev
     build:
       context: .
       dockerfile: dockerfile
